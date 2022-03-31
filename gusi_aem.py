@@ -36,7 +36,7 @@ def read(station,date_bgn,date_end,variables):
         dir_name = 'M7'
         prefix = 'M07'
 
-    aem_dir = '/home/heyej/NAS/AEM/'+dir_name+'/'
+    aem_dir = '~/'+dir_name+'/'
 
     start_date_1 = date_bgn.replace(day=1)
     end_date_1 = date_end.replace(day=1)
